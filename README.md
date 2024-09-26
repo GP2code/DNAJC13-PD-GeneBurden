@@ -7,7 +7,10 @@ Pending DOI
 **Last Updated:** September 2024 
 
 ## Summary
-This is the online repository for the short report titled ***"Variants in DNAJC13 and their Association with Parkinson's Disease Across Different Ancestral Backgrounds"***. Overall, our findings suggest that while *DNAJC13* variants may not play a significant role in PD across diverse populations, the potential for population-specific effects warrants further exploration.
+This is the online repository for the manuscript titled **"Variants in DNAJC13 and their Association with Parkinson's Disease Across Different Ancestral Backgrounds"**. 
+
+The aim of this study is to explore the association between missense mutations in *DNAJC13* and Parkinson's disease (PD) in a large-scale population data derived from **Accelerating Medicines Partnership - Parkinson Disease ([AMP-PD](https://www.amp-pd.org/))** and **Global Parkinson’s Genetics Program ([GP2](https://gp2.org/))** initiatives consisting from PD cases and controls representing various ancestral groups, based on previously identified mechanisms in *DNAJC* proteins playing a role in neurodegeneration<sup>[1](https://www.tandfonline.com/doi/full/10.1080/15548627.2023.2269028)</sup>, familial and individual case reports of *DNAJC13* disease-causing variants<sup>[2,](https://academic.oup.com/brain/article/143/7/2220/5866165)</sup><sup>[3,](https://www.prd-journal.com/article/S1353-8020(18)30263-3/)</sup><sup>[4,](https://movementdisorders.onlinelibrary.wiley.com/doi/10.1002/mds.27559)</sup><sup>[5,](https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2019.01061/full)</sup><sup>[6](https://jamanetwork.com/journals/jamaneurology/fullarticle/2685096)</sup>, and functional studies<sup>[7,](https://academic.oup.com/hmg/article/27/5/823/4788599)</sup><sup>[8,](https://linkinghub.elsevier.com/retrieve/pii/S030439401930285X)</sup><sup>[9](https://link.springer.com/article/10.1007/s00018-020-03521-y)</sup> supporting gene-disease relationship.
+
 
 
 ### Data Statement 
@@ -60,6 +63,19 @@ analyses/
 |            | 09_DNAJC13_GP2_R7_SAS    | Full pipeline (subset, annotate, association, gene burden) for GP2 SAS dataset    |
 | AMP_PD_R3/ | 01_DNAJC13_AMP_PD_R3_EUR | Full pipeline (subset, annotate, association, gene burden) for AMP-PD EUR dataset |
 |            | 02_DNAJC13_AMP_PD_R3_AJ  | Full pipeline (subset, annotate, association, gene burden) for AMP-PD AJ dataset  |
+
+## Ancestry labels
+|**Abbreviation**   |      **Ancestry**            |
+|:-----------------:|:----------------------------:|
+|       AAC         |African American|
+|       AFR         |African|
+|       AJ          |Ashkenazi Jews|
+|       AMR         |Admixed American/Latin American|
+|       CAS         |Central Asian|
+|       EAS         |East Asian|
+|       EUR         |European|
+|       MDE         |Middle Eastern|
+|       SAS         |South Asian|
 
 ---
 
