@@ -5,18 +5,18 @@
 Pending DOI 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**Last Updated:** September 2024 
+**Last Updated:** December 2025 
 
 ## Summary
-This is the online repository for the manuscript titled **"Variants in DNAJC13 and their Association with Parkinson's Disease Across Different Ancestral Backgrounds"**. 
+This is the online repository for the manuscript titled **"Variants in DNAJC13 Are Not Associated with Parkinson's Disease Across Different Ancestral Backgrounds"**. 
 
 The aim of this study is to explore the association between missense mutations in *DNAJC13* and Parkinson's disease (PD) in a large-scale population data derived from **Accelerating Medicines Partnership - Parkinson Disease ([AMP-PD](https://www.amp-pd.org/))** and **Global Parkinson’s Genetics Program ([GP2](https://gp2.org/))** initiatives consisting from PD cases and controls representing various ancestral groups, based on previously identified mechanisms in *DNAJC* proteins playing a role in neurodegeneration<sup>[1](https://www.tandfonline.com/doi/full/10.1080/15548627.2023.2269028)</sup>, familial and individual case reports of *DNAJC13* disease-causing variants<sup>[2,](https://academic.oup.com/brain/article/143/7/2220/5866165)</sup><sup>[3,](https://www.prd-journal.com/article/S1353-8020(18)30263-3/)</sup><sup>[4,](https://movementdisorders.onlinelibrary.wiley.com/doi/10.1002/mds.27559)</sup><sup>[5,](https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2019.01061/full)</sup><sup>[6](https://jamanetwork.com/journals/jamaneurology/fullarticle/2685096)</sup>, and functional studies<sup>[7,](https://academic.oup.com/hmg/article/27/5/823/4788599)</sup><sup>[8,](https://linkinghub.elsevier.com/retrieve/pii/S030439401930285X)</sup><sup>[9](https://link.springer.com/article/10.1007/s00018-020-03521-y)</sup> supporting gene-disease relationship.
 
 
 
 ### Data Statement 
-* All GP2 data are hosted in collaboration with the Accelerating Medicines Partnership in Parkinson's Disease (AMP-PD) and are available via application on the website. The GP2 PD case and control data are available via the GP2 website (https://gp2.org; release 7: 10.5281/zenodo.10962119). 
-* All data used from the AMP-PD v3 are available via application on the website (https://www.amp-pd.org/).
+* All GP2 data are hosted in collaboration with the Accelerating Medicines Partnership in Parkinson's Disease (AMP-PD) and are available via application on the website. The GP2 PD case and control data are available via the GP2 website (https://gp2.org; release 11: 10.5281/zenodo.17753486). 
+* All data used from the AMP-PD v4 are available via application on the website (https://www.amp-pd.org/).
 * Genotyping imputation, quality control, ancestry prediction, and processing were performed using GenoTools (v1.0.0), publicly available on GitHub
 
 
@@ -32,6 +32,8 @@ The aim of this study is to explore the association between missense mutations i
 
 ```
 analyses/
+├── GP2_R11/
+│   ├── VWB_01_DNAJC13_GP2_R11.ipynb
 ├── GP2_R7/
 │   ├── 01_DNAJC13_GP2_R7_AAC.ipynb
 │   ├── 02_DNAJC13_GP2_R7_AFR.ipynb
@@ -53,6 +55,7 @@ analyses/
 
 | Directory  | Notebooks                | Description                                                                       |
 |------------|--------------------------|-----------------------------------------------------------------------------------|
+| GP2_R11/   | VWB_01_DNAJC13_GP2_R11   | Full pipeline (subset, annotate, association, gene burden) for GP2 dataset        |
 | GP2_R7/    | 01_DNAJC13_GP2_R7_AAC    | Full pipeline (subset, annotate, association, gene burden) for GP2 AAC dataset    |
 |            | 02_DNAJC13_GP2_R7_AFR    | Full pipeline (subset, annotate, association, gene burden) for GP2 AFR dataset    |
 |            | 03_DNAJC13_GP2_R7_AJ     | Full pipeline (subset, annotate, association, gene burden) for GP2 AJ dataset     |
