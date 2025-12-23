@@ -34,16 +34,6 @@ The aim of this study is to explore the association between missense mutations i
 analyses/
 ├── GP2_R11/
 │   ├── VWB_01_DNAJC13_GP2_R11.ipynb
-├── GP2_R7/
-│   ├── 01_DNAJC13_GP2_R7_AAC.ipynb
-│   ├── 02_DNAJC13_GP2_R7_AFR.ipynb
-│   ├── 03_DNAJC13_GP2_R7_AJ.ipynb
-│   ├── 04_DNAJC13_GP2_R7_AMR.ipynb
-│   ├── 05_DNAJC13_GP2_R7_CAS.ipynb
-│   ├── 06_DNAJC13_GP2_R7_EAS.ipynb
-│   ├── 07_DNAJC13_GP2_R7_EUR.ipynb
-│   ├── 08_DNAJC13_GP2_R7_MDE.ipynb
-│   └── 09_DNAJC13_GP2_R7_SAS.ipynb
 └── AMP_PD_R3/
     ├── 01_DNAJC13_AMP_PD_R3_EUR.ipynb
     └── 02_DNAJC13_AMP_PD_R3_AJ.ipynb
@@ -56,15 +46,6 @@ analyses/
 | Directory  | Notebooks                | Description                                                                       |
 |------------|--------------------------|-----------------------------------------------------------------------------------|
 | GP2_R11/   | VWB_01_DNAJC13_GP2_R11   | Full pipeline (subset, annotate, association, gene burden) for GP2 dataset        |
-| GP2_R7/    | 01_DNAJC13_GP2_R7_AAC    | Full pipeline (subset, annotate, association, gene burden) for GP2 AAC dataset    |
-|            | 02_DNAJC13_GP2_R7_AFR    | Full pipeline (subset, annotate, association, gene burden) for GP2 AFR dataset    |
-|            | 03_DNAJC13_GP2_R7_AJ     | Full pipeline (subset, annotate, association, gene burden) for GP2 AJ dataset     |
-|            | 04_DNAJC13_GP2_R7_AMR    | Full pipeline (subset, annotate, association, gene burden) for GP2 AMR dataset    |
-|            | 05_DNAJC13_GP2_R7_CAS    | Full pipeline (subset, annotate, association, gene burden) for GP2 CAS dataset    |
-|            | 06_DNAJC13_GP2_R7_EAS    | Full pipeline (subset, annotate, association, gene burden) for GP2 EAS dataset    |
-|            | 07_DNAJC13_GP2_R7_EUR    | Full pipeline (subset, annotate, association, gene burden) for GP2 EUR dataset    |
-|            | 08_DNAJC13_GP2_R7_MDE    | Full pipeline (subset, annotate, association, gene burden) for GP2 MDE dataset    |
-|            | 09_DNAJC13_GP2_R7_SAS    | Full pipeline (subset, annotate, association, gene burden) for GP2 SAS dataset    |
 | AMP_PD_R3/ | 01_DNAJC13_AMP_PD_R3_EUR | Full pipeline (subset, annotate, association, gene burden) for AMP-PD EUR dataset |
 |            | 02_DNAJC13_AMP_PD_R3_AJ  | Full pipeline (subset, annotate, association, gene burden) for AMP-PD AJ dataset  |
 
